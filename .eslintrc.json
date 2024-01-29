@@ -31,6 +31,18 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "comma-spacing": [
+            "error", { "before": false, "after": true }
+        ],
+        "space-in-parens": ["error", "never"],
+        "object-curly-spacing": ["error", "always"],
+        "max-len": ["error", { "code": 150 }],
+        "object-curly-newline": ["error", {
+            "ObjectExpression": "always",
+            "ObjectPattern": { "multiline": true },
+            "ImportDeclaration": "never",
+            "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+        }]
     }
 }
