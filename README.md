@@ -9,16 +9,16 @@ GymPass style app
 - [OK] Deve ser possivel obter o numero de check-ins realizados pelo usuario logado;
 - [OK] Deve ser possivel o usuario obter seu historio de check-ins;
 - [OK] Deve ser possível o usuário buscar academias próximas (até 10km);
-- [] Deve ser possivel o usuario buscar academias pelo nome;
+- [OK] Deve ser possivel o usuario buscar academias pelo nome;
 - [OK] Deve ser possivel o usuario realizar che-in em uma academia;
-- [] Deve ser possivel validar o check-in de um usuario;
-- [] Deve ser possivel cadastrar uma academia;
+- [OK] Deve ser possivel validar o check-in de um usuario;
+- [OK] Deve ser possivel cadastrar uma academia;
 
 ## RNs (Regras de negocio)
 - [OK] O usuario não deve poder se cadastrar com um e-mail duplicado
-- [] O usuario não pode fazer dois check-in no mesmo dia 
+- [OK] O usuario não pode fazer dois check-in no mesmo dia 
 - [OK] O usuario não pode fazer check-in se não estiver perto(100m) da academia;
-- [] O check-in só pode ser valida até 20 minutos após criado;
+- [OK] O check-in só pode ser valida até 20 minutos após criado;
 - [] O chech-n só pode ser validado por administradores;
 - [] A academia só pode ser cadastrada por administradores;
 
@@ -26,7 +26,7 @@ GymPass style app
 ## RNFs (Requisitos não funcionais)
 - [OK] A senha do usuario precisa estar criptografada;
 - [OK] os dados da aplicacao precisam estar persistidos em um banco PostgreSQL;
-- [] Todas as listas de dados precisam estar paginadas com 20 itens por pagina;.
+- [OK] Todas as listas de dados precisam estar paginadas com 20 itens por pagina;.
 - [] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 
