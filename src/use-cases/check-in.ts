@@ -19,8 +19,8 @@ interface CheckInUseCaseResponse {
 
 export class CheckInUseCase {
 	constructor(
-    private checkInsRepository: CheckInsRepository,
-    private gymsRepository: GymsRepository,
+		private checkInsRepository: CheckInsRepository,
+		private gymsRepository: GymsRepository,
 	) {}
 
 	async execute({
