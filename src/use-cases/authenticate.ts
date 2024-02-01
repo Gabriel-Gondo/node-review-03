@@ -17,7 +17,7 @@ export class AuthenticateUseCase {
         private usersRepository: UsersRepository,
 	) {}
 
-	async execute({email, password}: AuthenticateUseCaserequest): Promise<AuthenticateUseCaseRequest>{
+	async execute({ email, password }: AuthenticateUseCaserequest): Promise<AuthenticateUseCaseRequest>{
 		const user = await this.usersRepository.findByEmail(email);
 
 		if(!user){
